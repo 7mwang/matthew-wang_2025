@@ -7,6 +7,21 @@ hide: true
 
 Matthew Wang's site for CSA 2025!
 
+# About Me
+
+## Skills
+- General web development
+- Problem-solving
+- Persistence
+
+## Hobbies
+- Badminton
+- Gaming
+- Programming
+
+## Fun Facts
+- 2 older sister that went to DNHS, 1 younger that will
+- I enjoy hiking and camping, but don't get to do them often
 
 <button onclick = "showLangs()">Code code code...code?</button>
 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEc9A_S6BPxCDRp5WjMFEfXrpCu1ya2OO-Lw&s" style="width:200px; height:auto" class = "lang">
