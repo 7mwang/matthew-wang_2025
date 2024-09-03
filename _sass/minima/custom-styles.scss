@@ -10,4 +10,143 @@
 @import "minima/monophase/main"; //Monophase theme 
 //@import "minima/minimal-mistakes/__minimal-mistakes"; //Minimal Mistakes theme 
 // Mix Light themes with this if your eyes are bleeding 
-@import "minima/dracula/dark-mode";
+//@import "minima/dracula/dark-mode";
+
+// Define color variables for light and dark themes
+$light-theme: (
+  high-emph: rgba(black, 0.87),
+  med-emph: rgba(black, 0.69),
+  low-emph: rgba(black, 0.38),
+  dark-grey: #ffffff,
+  overlay: mix(#ffffff, black, 95%),
+  overlay-light: mix(#ffffff, black, 86%),
+  link-color: rgb(0, 122, 255),
+  link-hover-color: rgba(black, 0.87)
+);
+
+$dark-theme: (
+  high-emph: rgba(white, 0.87),
+  med-emph: rgba(white, 0.69),
+  low-emph: rgba(white, 0.38),
+  dark-grey: #121212,
+  overlay: mix(#121212, white, 95%),
+  overlay-light: mix(#121212, white, 86%),
+  link-color: rgb(75, 186, 255),
+  link-hover-color: rgba(white, 0.87)
+);
+
+// Select the current theme
+$current-theme: $dark-theme !default;
+
+// Assign the current theme variables
+$high-emph: map-get($current-theme, high-emph);
+$med-emph: map-get($current-theme, med-emph);
+$low-emph: map-get($current-theme, low-emph);
+$dark-grey: map-get($current-theme, dark-grey);
+$overlay: map-get($current-theme, overlay);
+$overlay-light: map-get($current-theme, overlay-light);
+$link-color: map-get($current-theme, link-color);
+$link-hover-color: map-get($current-theme, link-hover-color);
+
+// Root and global styles
+:root {
+    --default-canvas-filter: invert(100%);
+}
+
+html, body, input, textarea, select, button {
+    color: $high-emph !important;
+    background-color: $dark-grey !important;
+}
+
+a {
+    color: $link-color !important;
+}
+
+a:hover {
+    color: $link-hover-color !important;
+}
+
+.site-title, .site-title:visited, .site-nav, .page-link {
+    color: $high-emph !important;
+}
+
+.site-nav {
+    background-color: $dark-grey;
+    border-color: $overlay-light;
+}
+
+* {
+    scrollbar-color: $dark-grey $overlay-light;
+}
+
+pre, code {
+    border-color: $overlay-light;
+    background-color: $overlay;
+}
+
+.page-description {
+    color: $med-emph;
+}
+
+.post-meta {
+    color: $low-emph;
+}
+
+.post-content p, .post-content li {
+    color: $med-emph;
+}
+
+.btn {
+    background-color: $overlay !important;
+    color: $high-emph !important;
+    border-color: $overlay-light !important;
+}
+
+.btn:hover {
+    background-color: $dark-grey !important;
+}
+
+table th {
+    background-color: $overlay;
+    border-color: $overlay-light;
+    color: $high-emph;
+}
+
+table td {
+    background-color: $dark-grey;
+    border-color: $overlay-light;
+    color: $med-emph;
+}
+
+.flash {
+    color: $dark-grey !important;
+    filter: brightness(80%);
+}
+
+canvas {
+    filter: var(--default-canvas-filter);
+}
+
+.post-list > li > div {
+    box-shadow: none !important;
+    background-color: $overlay;
+    border: none !important;
+}
+
+li .post-meta-description {
+    color: $med-emph !important;
+}
+
+.search-result-preview {
+    color: lightgray !important;
+}
+
+.search-result-highlight {
+    color: yellow !important;
+    font-weight: bold !important;
+}
+
+.search-results-list-item .search-result-title {
+    color: cornflowerblue !important;
+}
+
