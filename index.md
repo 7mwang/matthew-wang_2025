@@ -10,7 +10,7 @@ hide: true
 <div class = "dropdown-content">
 <a href="{{site.baseurl}}/2024/09/08/javascript-cell_IPYNB_2_.html">Javascript Cell</a>
 <a href="{{site.baseurl}}/2024/09/08/plans_IPYNB_2_.html">Plans and Accomplishments</a>
-<a href="{{site.baseurl}}/2024/09/06/aboutme_IPYNB_2_.html">About Me</a>
+<a href="{{site.baseurl}}/about/">About Me</a>
 </div>
 </div>
 
