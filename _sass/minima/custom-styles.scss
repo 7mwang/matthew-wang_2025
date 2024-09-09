@@ -7,12 +7,14 @@
 
 // Light themes
 //@import "minima/hamilton/main"; //Hamilton theme
+//@import "nighthawk/main";
 @import "minima/monophase/main"; //Monophase theme 
 //@import "minima/minimal-mistakes/__minimal-mistakes"; //Minimal Mistakes theme 
 // Mix Light themes with this if your eyes are bleeding 
 //@import "minima/dracula/dark-mode";
-
+@import "nighthawk/_main";
 // Define color variables for light and dark themes
+
 $light-theme: (
   high-emph: rgba(black, 0.87),
   med-emph: rgba(black, 0.69),
@@ -150,3 +152,34 @@ li .post-meta-description {
     color: cornflowerblue !important;
 }
 
+
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown {
+    max-width: fit-content;
+}
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}

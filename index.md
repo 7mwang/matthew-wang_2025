@@ -5,23 +5,16 @@ description: Home Page
 hide: true
 ---
 
+<div class="dropdown">
+<button class="dropbtn">Lost? Check one of these out! ↓</button>
+<div class = "dropdown-content">
+<a href="{{site.baseurl}}/2024/09/08/javascript-cell_IPYNB_2_.html">Javascript Cell</a>
+<a href="{{site.baseurl}}/2024/09/08/plans_IPYNB_2_.html">Plans and Accomplishments</a>
+<a href="{{site.baseurl}}/2024/09/06/aboutme_IPYNB_2_.html">About Me</a>
+</div>
+</div>
+
 Matthew Wang's site for CSA 2025!
-
-# About Me
-
-## Skills
-- General web development
-- Problem-solving
-- Persistence
-
-## Hobbies
-- Badminton
-- Gaming
-- Programming
-
-## Fun Facts
-- 2 older sister that went to DNHS, 1 younger that will
-- I enjoy hiking and camping, but don't get to do them often
 
 <button onclick = "showLangs()">Code code code...code?</button>
 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEc9A_S6BPxCDRp5WjMFEfXrpCu1ya2OO-Lw&s" style="width:200px; height:auto" class = "lang">
