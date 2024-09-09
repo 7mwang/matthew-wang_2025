@@ -1,0 +1,37 @@
+---
+layout: post
+title: Sprint 1 - Checklist
+permalink: /checklist-1
+comments: True
+---
+
+# Hacks
+
+## vsc & gitlens
+
+<img src = "https://files.catbox.moe/890bxb.png">
+
+## student repo and actions
+
+<img src = "https://files.catbox.moe/u4ozkq.png">
+
+## Tools & Equipment Play
+
+These have my tools verification, tools play, and question answers.
+<a href = "{{site.baseurl}}/matthew-wang_2025/devops/tools/verify">Verify</a>
+<a href = "{{site.baseurl}}/matthew-wang_2025/devops/github/pages/play">Play</a>
+<a href = "{{site.baseurl}}/matthew-wang_2025/devops/hacks">Hacks</a>
+
+## Github Pages
+
+This leads to where my submenu is located, which then branches off into three new notebooks
+<a href = "{{site.baseurl}}/">Submenu</a>
+
+## SASS Hacks
+
+This leads to my takeaways from the SASS lesson. I was able to both use the nighthawk folder for styles, and have a light theme and dark theme variable I can switch between.
+<a href = "{{site.baseurl}}/2024/09/08/sass-hacks_IPYNB_2_.html">SASS Hacks</a>
+
+## Frontend Dev Hacks
+
+<a href = "{{site.baseurl}}/2024/09/08/frontend-dev_IPYNB_2_.html">All Frontend Hacks</a>

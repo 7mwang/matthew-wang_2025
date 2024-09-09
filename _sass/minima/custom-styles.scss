@@ -37,10 +37,8 @@ $dark-theme: (
   link-hover-color: rgba(white, 0.87)
 );
 
-// Select the current theme
 $current-theme: $dark-theme !default;
 
-// Assign the current theme variables
 $high-emph: map-get($current-theme, high-emph);
 $med-emph: map-get($current-theme, med-emph);
 $low-emph: map-get($current-theme, low-emph);
@@ -50,7 +48,6 @@ $overlay-light: map-get($current-theme, overlay-light);
 $link-color: map-get($current-theme, link-color);
 $link-hover-color: map-get($current-theme, link-hover-color);
 
-// Root and global styles
 :root {
     --default-canvas-filter: invert(100%);
 }
