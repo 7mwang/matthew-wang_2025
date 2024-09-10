@@ -9,18 +9,18 @@ comments: True
 
 ## vsc & gitlens
 
-<img src = "https://files.catbox.moe/890bxb.png">
+<img src = "images/vsc.png">
 
 ## student repo and actions
 
-<img src = "https://files.catbox.moe/u4ozkq.png">
+<img src = "images/repo.png">
 
 ## Tools & Equipment Play
 
 These have my tools verification, tools play, and question answers.
-<a href = "{{site.baseurl}}/matthew-wang_2025/devops/tools/verify">Verify</a>
-<a href = "{{site.baseurl}}/matthew-wang_2025/devops/github/pages/play">Play</a>
-<a href = "{{site.baseurl}}/matthew-wang_2025/devops/hacks">Hacks</a>
+<a href = "{{site   .baseurl}}/devops/tools/verify">Verify</a>
+<a href = "{{site.baseurl}}/devops/github/pages/play">Play</a>
+<a href = "{{site.baseurl}}/devops/hacks">Hacks</a>
 
 ## Github Pages
 
@@ -35,3 +35,7 @@ This leads to my takeaways from the SASS lesson. I was able to both use the nigh
 ## Frontend Dev Hacks
 
 <a href = "{{site.baseurl}}/2024/09/08/frontend-dev_IPYNB_2_.html">All Frontend Hacks</a>
+
+## Pair Programming
+
+<a>Github Pages</a>
