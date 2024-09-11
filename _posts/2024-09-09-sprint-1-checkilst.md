@@ -39,4 +39,4 @@ This leads to my takeaways from the SASS lesson. I was able to both use the nigh
 ## Pair Programming
 
 <a href = "https://github.com/7mwang/bubble-popper">Github Repo</a>
-<a href = "7mwang.github.io/bubble-popper">Pair Works</a>
+<a href = "https://7mwang.github.io/Bubble-Popper/">Pair Works</a>
