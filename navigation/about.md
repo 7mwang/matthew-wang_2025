@@ -8,6 +8,7 @@ permalink: /about/
 - Born on July 28, 2007
 - born into an all Chinese family
 - moved from Arizona to California in 2016
+
 ## Skills
 - General web development
 - Problem-solving
