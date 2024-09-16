@@ -16,25 +16,25 @@
 // Define color variables for light and dark themes
 
 $light-theme: (
-  high-emph: rgba(black, 0.87),
-  med-emph: rgba(black, 0.69),
-  low-emph: rgba(black, 0.38),
-  dark-grey: #ffffff,
-  overlay: mix(#ffffff, black, 95%),
-  overlay-light: mix(#ffffff, black, 86%),
-  link-color: rgb(0, 122, 255),
-  link-hover-color: rgba(black, 0.87)
+    high-emph: rgba(black, 0.87),
+    med-emph: rgba(black, 0.69),
+    low-emph: rgba(black, 0.38),
+    dark-grey: #ffffff,
+    overlay: mix(#ffffff, black, 95%),
+    overlay-light: mix(#ffffff, black, 86%),
+    link-color: rgb(0, 122, 255),
+    link-hover-color: rgba(black, 0.87)
 );
 
 $dark-theme: (
-  high-emph: rgba(white, 0.87),
-  med-emph: rgba(white, 0.69),
-  low-emph: rgba(white, 0.38),
-  dark-grey: #121212,
-  overlay: mix(#121212, white, 95%),
-  overlay-light: mix(#121212, white, 86%),
-  link-color: rgb(75, 186, 255),
-  link-hover-color: rgba(white, 0.87)
+    high-emph: rgba(white, 0.87),
+    med-emph: rgba(white, 0.69),
+    low-emph: rgba(white, 0.38),
+    dark-grey: #121212,
+    overlay: mix(#121212, white, 95%),
+    overlay-light: mix(#121212, white, 86%),
+    link-color: rgb(75, 186, 255),
+    link-hover-color: rgba(white, 0.87)
 );
 
 $current-theme: $dark-theme !default;

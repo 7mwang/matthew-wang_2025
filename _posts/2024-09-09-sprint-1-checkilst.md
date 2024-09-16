@@ -33,7 +33,7 @@ This leads to where my submenu is located, which then branches off into three ne
 This leads to my takeaways from the SASS lesson. I was able to both use the nighthawk folder for styles, and have a light theme and dark theme variable I can switch between.
 <a href = "{{site.baseurl}}/2024/09/08/sass-hacks_IPYNB_2_.html">SASS Hacks</a>
 <a href = "{{site.baseurl}}/javascript/project/calculator">JS Calculator</a>
-\<a href = "{{site.baseurl}}/javascript/project/binary-calculator">Binary Calculator</a>
+<a href = "{{site.baseurl}}/javascript/project/binary-calculator">Binary Calculator</a>
 ## Frontend Dev Hacks
 
 <a href = "{{site.baseurl}}/2024/09/08/frontend-dev_IPYNB_2_.html">All Frontend Hacks</a>
