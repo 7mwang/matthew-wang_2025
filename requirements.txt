@@ -4,4 +4,3 @@ pyyaml
 notebook
 requests
 python-dotenv
-progress_bar
