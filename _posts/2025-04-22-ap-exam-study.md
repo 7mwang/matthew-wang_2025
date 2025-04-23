@@ -87,4 +87,14 @@ comments: True
   }
   ```
 
-# MCQ Reflections: 2020 Practice Exam 1 MCQ
+# MCQ
+
+![Image](https://github.com/user-attachments/assets/cc276163-0bc3-4427-ae16-4317c21ef6a1)
+
+![Image](https://github.com/user-attachments/assets/414773e2-ceb6-4c12-acbc-3508aa56acc2)
+
+![Image](https://github.com/user-attachments/assets/e37a3ea3-26f2-4895-864a-5a9ec8b6c052)
+
+![Image](https://github.com/user-attachments/assets/add2d5b8-fe92-4c91-8c96-df7f6081ffe0)
+
+![Image](https://github.com/user-attachments/assets/50214dbd-88a4-4d91-a27d-edf16eeb1e50)
