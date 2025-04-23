@@ -98,3 +98,58 @@ comments: True
 ![Image](https://github.com/user-attachments/assets/add2d5b8-fe92-4c91-8c96-df7f6081ffe0)
 
 ![Image](https://github.com/user-attachments/assets/50214dbd-88a4-4d91-a27d-edf16eeb1e50)
+
+# FRQ
+
+![Image](https://github.com/user-attachments/assets/88f062ba-c37c-4274-ae70-501dc553d7ec)
+
+## 2014: Problem 1 Work
+(Coded in REPL, includes test case)
+```
+public class Main {
+  public static void main(String[] args) {
+    recombine("john", "mort");
+    String[] words = {"apple", "pear", "this", "cat", "doge", "fish", "blat", "pent"};
+    mixedWords(words);
+  }
+  public static String recombine(String word1, String word2) {
+    String finalString = "";
+    String[] words = {word1, word2};
+    for(int i = 0; i < words.length; i++) {
+      if(i == 1) {
+        for(int j = words[i].length()/2; j < words[i].length(); j++) {
+          finalString += words[i].charAt(j);
+        }
+      }
+      else {
+        for(int j = 0; j < words[i].length()/2; j++) {
+          finalString = finalString + words[i].charAt(j);
+        }
+      }
+    }
+    System.out.println(finalString);
+    return finalString;
+  }
+  public static String[] mixedWords(String[] words) {
+    String tempW = "";
+    for(int i = 0; i < words.length; i+=2) { 
+      tempW = recombine(words[i], words[i+1]);
+      words[i+1] = recombine(words[i+1], words[i]);
+      words[i] = tempW;
+    }
+    return words;
+  }
+}
+```
+### Output
+```
+jort
+apar
+peple
+that
+cis
+dosh
+fige
+blnt
+peat
+```
