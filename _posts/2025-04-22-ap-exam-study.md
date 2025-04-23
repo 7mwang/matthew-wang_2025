@@ -6,6 +6,11 @@ comments: True
 ---
 # CB Topics Cheat Sheet
 
+## Key Sites
+[Geeks for Geeks](https://www.geeksforgeeks.org/java/)
+[W3 Schools](https://www.w3schools.com/java/)
+
+# Topic Summary
 ## Primitive Types
 - Java has 8 primitive types: `int`, `double`, `boolean`, `char`, `byte`, `short`, `long`, `float`.
 - Variables store simple values, e.g., `int x = 5;` or `double price = 3.99;`.
@@ -103,7 +108,7 @@ comments: True
 
 ![Image](https://github.com/user-attachments/assets/88f062ba-c37c-4274-ae70-501dc553d7ec)
 
-## 2014: Problem 1 Work
+## 2014: Problem 1 Work Revised
 (Coded in REPL, includes test case)
 ```
 public class Main {
