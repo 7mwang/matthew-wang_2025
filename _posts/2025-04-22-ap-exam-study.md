@@ -4,6 +4,20 @@ title: AP Exam Study Cheat Sheet/Notes
 permalink: /AP-Study
 comments: True
 ---
+# Study Guide
+
+## Method
+- 8 FRQ/1 Full Practice Exam/week
+- No help allowed (no docs, no reference sheet, no compiler)
+- Unlimited time to solve
+- Self-score after doing FRQ/exam
+- External research/compiler for testing allowed after self-scoring
+
+## Testing Resources (8 FRQ or 1 Practice Exam/Week)
+
+[CB Assigned FRQs & MCs](https://apclassroom.collegeboard.org/8/assignments)
+[CB Past FRQs](https://apcentral.collegeboard.org/courses/ap-computer-science-a/exam/past-exam-questions)
+
 # CB Topics Cheat Sheet
 
 ## Key Sites
